@@ -2,9 +2,6 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ cats }) => {
-	if (true) {
-		throw new Error('Nooooooo')
-	}
 	return (
 		<ul>
 		{
